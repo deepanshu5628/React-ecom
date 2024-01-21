@@ -1,0 +1,28 @@
+.Navbar{
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightslategray;
+}
+
+#logoimg{
+    height: 2.5rem;
+    width: 4rem;
+}
+
+.navdiv2{
+    display: flex;
+    color: white;
+}
+.navdiv2 >div:hover{
+    cursor: default;
+}
+.cartlogo{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+}

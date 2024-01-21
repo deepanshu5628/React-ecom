@@ -1,0 +1,18 @@
+#img{
+    height: 4rem;
+    width: 7rem;
+}
+.Itemcard{
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+}
+
+#pricediv{
+    display: flex;
+    justify-content: space-between;
+}
+.Itemcard:hover{
+    box-shadow: 4px 4px 10px black;
+}

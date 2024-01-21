@@ -1,0 +1,8 @@
+.Homepage{
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
