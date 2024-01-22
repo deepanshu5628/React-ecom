@@ -4,11 +4,11 @@ const Cartslice=createSlice({
     name:"cart",
     initialState:[],
     reducers:{
-        addcartbtn:()=>{
-            console.log("bnt is clicked");
+        addcartbtn:(state,actions)=>{
+            state.push(actions.payload);
         },
-        remcartbtn:()=>{
-            console.log("bnt is clicked");
+        remcartbtn:(state,actions)=>{
+            return state.filter((stat)=>stat.id !=actions.payload);
         }
     }
 })

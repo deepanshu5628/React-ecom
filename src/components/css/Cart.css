@@ -1,5 +1,18 @@
-.Cart{
+.cartdiv1{
     border: 2px solid black;
+    width: 60%;
+    text-align: center;
+}
+
+.Cart{
+    display: flex;
     margin-left: 20%;
     margin-right: 20%;
+    border: 2px solid yellow;
+}
+
+.cartdiv2{
+    border: 2px solid pink;
+    margin-left: 2rem;
+    width: 40%;
 }

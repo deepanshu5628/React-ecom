@@ -10,10 +10,14 @@ function App() {
   const dispatch=useDispatch();
   
   async function fetchbtnhandler(){
-    let url="https://fakestoreapi.com/products";
+    try {
+      let url="https://fakestoreapi.com/products";
     let res=await fetch(url);
     let data=await res.json();
     dispatch(fetchdata(data));
+    } catch (error) {
+      console.log("error in fetching data");
+    }
   }
 
     useEffect(()=>{
